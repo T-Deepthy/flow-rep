@@ -1,0 +1,24 @@
+.database{ 
+    color: rgb(110, 38, 5);
+    padding-right: 6rem;
+
+}
+.money{
+    color: rgb(19, 124, 36);
+    padding-right: 6rem;
+}
+.twitter{ 
+    color: rgb(70, 176, 218);
+    padding-right: 6rem;
+
+}
+.error{ 
+    padding-right: 6rem;
+    color: red;
+}
+hr{ 
+    padding-bottom: 2rem;
+}
+.card-flex{ 
+    display: flex;
+}

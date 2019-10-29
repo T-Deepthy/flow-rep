@@ -4,7 +4,7 @@ import Dashboard from '../../components/Dashboard/Dashboard';
 class MainFrame extends Component {
   render() {
     return ( 
-        <div className="col-lg-8 container-fluid mainframe-wrapper">
+        <div className="col-lg-10 container-fluid mainframe-wrapper pad">
           
             <Dashboard />
         </div>

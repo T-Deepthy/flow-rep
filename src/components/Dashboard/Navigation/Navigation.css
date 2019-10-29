@@ -1,0 +1,40 @@
+.pad{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    font-size: 1.5rem;
+    color: grey;
+    position: absolute;
+    left: 8rem;
+}
+.font-pad{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    font-size: 1.5rem;
+    color: grey;
+}
+.text{ 
+    font-size: 25px;
+    color: grey;
+}
+.search{ 
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: grey;
+}
+.dropdown{ 
+    padding-bottom: 6px;
+    padding-left: 14px;
+}
+.account{ 
+    padding-left: 15rem;
+    color: grey;
+
+}
+.logout{ 
+    color: grey;
+    padding-left: 9rem;
+}

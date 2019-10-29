@@ -6,22 +6,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import SideBar from "./components/Sidebar/SideBar";
 import UserProfile from "./components/UserProfile/UserProfile";
-
+import "font-awesome/css/font-awesome.min.css";
 
 export class App extends Component {
   render() {
     return (
-     
-        <React.Fragment>
-        <SideBar  />
-        <Switch>
-          <Route path="/" render={() => <MainFrame />} exact/>
-          <Route path="/user-profile" render={() => <UserProfile />} exact/>
-         
-        </Switch>
-      </React.Fragment>
-      
-     
+      <div className="row">
+        <SideBar />
+        <Route path="/" render={() => <MainFrame />} exact />
+        <Route path="/user-profile" render={() => <UserProfile />} exact />
+      </div>
     );
   }
 }
