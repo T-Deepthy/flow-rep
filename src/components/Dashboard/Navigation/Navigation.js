@@ -11,9 +11,7 @@ class Navigation extends Component {
               <h2 className="text">Dashboard</h2>
               <i className="fa fa-tachometer font-pad" aria-hidden="true"></i>
               <i className="fa fa-globe font-pad" aria-hidden="true"></i>
-              <form className="form-inline md-form form-sm mt-0">
-                <i className="fa fa-search search" aria-hidden="true"></i>
-              </form>
+                <i className="fa fa-search font-pad" aria-hidden="true"></i>
               <Link to="/account" className="account">
                 Account
               </Link>

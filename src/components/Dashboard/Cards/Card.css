@@ -1,24 +1,52 @@
 .database{ 
     color: rgb(110, 38, 5);
-    padding-right: 6rem;
+    padding-right: 3rem !important;
+    padding-top: 2px;
+    font-size: xx-large !important
+
 
 }
 .money{
     color: rgb(19, 124, 36);
-    padding-right: 6rem;
+    padding-right: 2.5rem !important;
+    font-size: xx-large !important
+
 }
 .twitter{ 
     color: rgb(70, 176, 218);
-    padding-right: 6rem;
+    padding-right: 2.5rem !important;
+    font-size: xx-large !important
+
 
 }
 .error{ 
-    padding-right: 6rem;
     color: red;
+    padding-right: 3.5rem !important;
+    font-size: xx-large !important
+
 }
 hr{ 
-    padding-bottom: 2rem;
+    color: red;
 }
 .card-flex{ 
     display: flex;
+}
+.cards{ 
+    margin: 8px;
+border: 1px solid lightgrey;
+border-radius: 3px;
+width: 13rem;
+height: 8rem;
+font-size: 1.2rem;
+}
+.text-last{ 
+    color: black;
+    text-align-last: right;
+    padding-right: 5px;
+}
+.text-first{ 
+    text-align-last: left;
+}
+.pad-error{ 
+    padding-bottom: 4px !important
 }
