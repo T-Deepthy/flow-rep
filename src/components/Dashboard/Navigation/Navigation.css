@@ -1,11 +1,6 @@
 .pad{ 
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 4px;
     font-size: 1.5rem;
     color: grey;
-    position: absolute;
-    left: 8rem;
 }
 .font-pad{ 
     padding-left: 30px;

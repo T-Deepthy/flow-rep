@@ -1,12 +1,8 @@
 .sidenav {
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+  height: 100vh;
   background-color: #111;
-  overflow-x: hidden;
   padding-top: 20px;
+  padding-left: 2rem;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -34,4 +30,7 @@ h2 {
 }
 .font-end{ 
   padding-top: 100px;
+}
+.white { 
+  color: white;
 }

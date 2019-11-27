@@ -38,6 +38,9 @@ class SideBar extends Component {
           <i className="fa fa-bell font-color mr-2" aria-hidden="true"></i>
           NOTIFICATIONS
         </Link>
+        <Link className="mt-2" to="/basics">
+          BASICS
+        </Link>
         <Link className="font-end" to="/upgrade">
         <i className="fa fa-arrow-up font-color mr-2" aria-hidden="true"></i>UPGRADE TO PRO
         </Link>

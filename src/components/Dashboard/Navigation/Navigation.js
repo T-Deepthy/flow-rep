@@ -4,7 +4,7 @@ import "../Navigation/Navigation.css";
 class Navigation extends Component {
   render() {
     return (
-      <div className="container-fluid mainframe-wrapper ">
+      <div className="container-fluid mainframe-wrapper mt-2">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
